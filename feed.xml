@@ -1,0 +1,23 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://shabrinazahrahramadhani.github.io/</id>
+  <title>Chirpy</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-06-09T22:05:17+08:00</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>https://shabrinazahrahramadhani.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://shabrinazahrahramadhani.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://shabrinazahrahramadhani.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+</feed>
+
+
