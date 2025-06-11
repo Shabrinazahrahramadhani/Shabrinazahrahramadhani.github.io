@@ -167,9 +167,10 @@ kramdown:
       start_line: 1
 
 collections:
-  tabs:
-    output: true
-    sort_by: order
+  categories:
+    permalink: /:name/
+  tags:
+    permalink: /tags/:name/
 
 defaults:
   - scope:
