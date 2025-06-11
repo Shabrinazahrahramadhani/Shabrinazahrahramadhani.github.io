@@ -167,11 +167,14 @@ kramdown:
       start_line: 1
 
 collections:
-  categories:
-    permalink: /:name/
-  tags:
-    permalink: /tags/:name/
-
+  # Koleksi 'tabs' Anda yang sudah ada
+  tabs:
+    output: true
+    sort_by: order
+  projects:
+    output: true 
+    permalink: /projects/:name/ 
+    
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
