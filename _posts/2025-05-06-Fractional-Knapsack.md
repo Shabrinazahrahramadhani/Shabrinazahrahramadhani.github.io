@@ -72,11 +72,8 @@ Diberikan:
 - ✅ **Total Nilai = 240**
 
 ---
-
-## Implementasi dalam C++
-
+# Implementasi CPP
 ```cpp
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -97,7 +94,6 @@ double fractionalKnapsack(int W, vector<Item>& items) {
     sort(items.begin(), items.end(), compare);
 
     double totalValue = 0.0;
-
     for (auto& item : items) {
         if (W == 0) break;
 
@@ -122,7 +118,7 @@ int main() {
 
     return 0;
 }
-```
+
 
 
 
