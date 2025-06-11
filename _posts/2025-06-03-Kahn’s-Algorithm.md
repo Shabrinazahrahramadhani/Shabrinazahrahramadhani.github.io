@@ -1,6 +1,6 @@
 ---
 title: KAHN’S ALGORITHM (TOPOLOGICAL SORT)
-date: 03-06-2025
+date: 2025-06-03
 categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
 tags: [daa, algorithm, topologicalsort, kahn, graph]
 ---

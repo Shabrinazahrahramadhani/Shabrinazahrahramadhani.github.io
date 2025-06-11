@@ -1,6 +1,6 @@
 ---
 title: DEPTH-FIRST SEARCH (DFS)
-date: 27-05-2025
+date: 2025-05-27
 categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
 tags: [daa, algorithm, dfs, graph]
 ---

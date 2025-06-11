@@ -1,6 +1,6 @@
 ---
 title: FRACTIONAL KNAPSACK
-date: 06-05-2025
+date: 2025-05-06
 categories: [DESAIN ANALISIS ALGORITMA, GREEDY]
 tags: [daa, algorithm, greedy]
 ---

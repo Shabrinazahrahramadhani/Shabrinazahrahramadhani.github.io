@@ -1,6 +1,6 @@
 ---
 title: N-QUEENS PROBLEM
-date: 20-05-2025
+date: 2025-05-20
 categories: [DESAIN ANALISIS ALGORITMA, BACKTRACKING]
 tags: [daa, algorithm, backtracking, nqueens]
 ---

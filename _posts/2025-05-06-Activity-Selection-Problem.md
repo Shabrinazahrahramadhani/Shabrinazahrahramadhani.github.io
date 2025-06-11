@@ -1,6 +1,6 @@
 ---
 title: ACTIVITY SELECTION PROBLEM
-date: 06-05-2025
+date: 2025-05-06
 categories: [DESAIN ANALISIS ALGORITMA, GREEDY]
 tags: [daa, algorithm, greedy]
 ---
@@ -56,7 +56,6 @@ A6	           5	9
 	7.	A6 tumpang tindih dengan A5 → skip.
 
 Aktivitas Terpilih: A1, A2, A4, A5 (Total: 4 aktivitas)
-
 {% raw %}
 ```cpp
 #include <iostream>
@@ -67,19 +66,14 @@ using namespace std;
 struct Item {
     int value, weight;
 };
-
-// Mengurutkan berdasarkan rasio nilai/berat
 bool compare(Item a, Item b) {
     double r1 = (double)a.value / a.weight;
     double r2 = (double)b.value / b.weight;
     return r1 > r2;
 }
-
 double fractionalKnapsack(int W, vector<Item> items) {
     sort(items.begin(), items.end(), compare);
-
     double totalValue = 0.0;
-
     for (auto& item : items) {
         if (W >= item.weight) {
             W -= item.weight;
@@ -89,10 +83,8 @@ double fractionalKnapsack(int W, vector<Item> items) {
             break;
         }
     }
-
-    return totalValue;
+	return totalValue;
 }
-
 int main() {
     int W = 50;
     vector<Item> items = {{60, 10}, {100, 20}, {120, 30}};
@@ -102,9 +94,6 @@ int main() {
 }
 ```
 {% endraw %}
-
-
-
 
 Analisis Kompleksitas
 	•	Waktu: O(n log n) karena proses sorting.
