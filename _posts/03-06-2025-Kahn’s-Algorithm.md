@@ -1,8 +1,8 @@
 ---
-title: KAHN’S ALGORITHM (TOPOLOGICAL SORT)
-date: 03-06-2025
-categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
-tags: [daa, algorithm, topologicalsort, kahn, graph]
+Title: KAHN’S ALGORITHM (TOPOLOGICAL SORT)
+Date: 03-06-2025
+Categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
+Tags: [daa, algorithm, topologicalsort, kahn, graph]
 ---
 Pengertian:
 

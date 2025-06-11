@@ -1,8 +1,8 @@
 ---
-title: ACTIVITY SELECTION PROBLEM
-date: 06-05-2025
-categories: [DESAIN ANALISIS ALGORITMA, GREEDY]
-tags: [daa, algorithm, greedy]
+Title: ACTIVITY SELECTION PROBLEM
+Date: 06-05-2025
+Categories: [DESAIN ANALISIS ALGORITMA, GREEDY]
+Tags: [daa, algorithm, greedy]
 ---
 Pengantar
 

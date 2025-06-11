@@ -1,8 +1,8 @@
 ---
-title: DEPTH-FIRST SEARCH (DFS)
-date: 27-05-2025
-categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
-tags: [daa, algorithm, dfs, graph]
+Title: DEPTH-FIRST SEARCH (DFS)
+Date: 27-05-2025
+Categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
+Tags: [daa, algorithm, dfs, graph]
 ---
 Pengertian:
 

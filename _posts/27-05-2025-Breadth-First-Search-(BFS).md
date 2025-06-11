@@ -1,8 +1,8 @@
 ---
-title: BREADTH-FIRST SEARCH (BFS)
-date: 27-05-2025
-categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
-tags: [daa, algorithm, bfs, graph]
+Title: BREADTH-FIRST SEARCH (BFS)
+Date: 27-05-2025
+Categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
+Tags: [daa, algorithm, bfs, graph]
 ---
 Pengantar
 
