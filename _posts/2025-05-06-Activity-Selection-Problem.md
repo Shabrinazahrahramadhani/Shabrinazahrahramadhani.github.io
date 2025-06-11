@@ -7,7 +7,6 @@ tags: [daa, algorithm, greedy]
 Pengantar
 
 Dalam dunia yang serba terbatas, kita sering menghadapi masalah penjadwalan—misalnya dalam menyusun jadwal kuliah, pemesanan ruang rapat, atau agenda presentasi. Salah satu permasalahan klasik yang menangani hal tersebut adalah Activity Selection Problem (Masalah Pemilihan Aktivitas).
-
 Tujuannya? Memilih sebanyak mungkin aktivitas yang bisa dilakukan tanpa saling bertabrakan waktu. Masalah ini bisa diselesaikan secara optimal dengan algoritma Greedy.
 
 Konsep Dasar Algoritma
@@ -58,42 +57,53 @@ A6	           5	9
 
 Aktivitas Terpilih: A1, A2, A4, A5 (Total: 4 aktivitas)
 
-Implementasi dalam C++
-
+{% raw %}
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
 
-struct Activity {
-    int start, finish;
+struct Item {
+    int value, weight;
 };
 
-// Fungsi untuk mengurutkan aktivitas berdasarkan waktu selesai
-bool compare(Activity a, Activity b) {
-    return a.finish < b.finish;
+// Mengurutkan berdasarkan rasio nilai/berat
+bool compare(Item a, Item b) {
+    double r1 = (double)a.value / a.weight;
+    double r2 = (double)b.value / b.weight;
+    return r1 > r2;
 }
 
-void activitySelection(vector<Activity>& activities) {
-    sort(activities.begin(), activities.end(), compare);
+double fractionalKnapsack(int W, vector<Item> items) {
+    sort(items.begin(), items.end(), compare);
 
-    cout << "Aktivitas yang dipilih:\n";
-    int lastFinishTime = activities[0].finish;
-    cout << "(" << activities[0].start << ", " << activities[0].finish << ")\n";
+    double totalValue = 0.0;
 
-    for (int i = 1; i < activities.size(); i++) {
-        if (activities[i].start >= lastFinishTime) {
-            cout << "(" << activities[i].start << ", " << activities[i].finish << ")\n";
-            lastFinishTime = activities[i].finish;
+    for (auto& item : items) {
+        if (W >= item.weight) {
+            W -= item.weight;
+            totalValue += item.value;
+        } else {
+            totalValue += item.value * ((double)W / item.weight);
+            break;
         }
     }
+
+    return totalValue;
 }
 
 int main() {
-    vector<Activity> activities = {{1, 2}, {3, 4}, {0, 6}, {5, 7}, {8, 9}, {5, 9}};
-    activitySelection(activities);
+    int W = 50;
+    vector<Item> items = {{60, 10}, {100, 20}, {120, 30}};
+
+    cout << "Maximum value we can obtain = " << fractionalKnapsack(W, items) << endl;
     return 0;
 }
+```
+{% endraw %}
+
+
 
 
 Analisis Kompleksitas
