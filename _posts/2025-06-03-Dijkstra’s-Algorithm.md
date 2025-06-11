@@ -1,5 +1,5 @@
 ---
-title: DIJKSTRA’S ALGORITHM
+title: "DIJKSTRA’S ALGORITHM"
 date: 2025-06-03
 categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
 tags: [daa, algorithm, dijkstra, shortestpath, graph]

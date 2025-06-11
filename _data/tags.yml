@@ -1,0 +1,7 @@
+# _data/tags.yml
+- slug: daa
+  name: daa
+- slug: algorithm
+  name: algorithm
+- slug: greedy
+  name: greedy

@@ -1,5 +1,5 @@
 ---
-title: HUFFMAN CODING
+title: "HUFFMAN CODING"
 date: 2025-05-20
 categories: [DESAIN ANALISIS ALGORITMA, GREEDY]
 tags: [daa, algorithm, greedy, compression]

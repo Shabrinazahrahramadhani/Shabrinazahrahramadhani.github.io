@@ -1,5 +1,5 @@
 ---
-title: SUBSET SUM PROBLEM
+title: "SUBSET SUM PROBLEM"
 date: 2025-05-20
 categories: [DESAIN ANALISIS ALGORITMA, BACKTRACKING]
 tags: [daa, algorithm, backtracking, subset]

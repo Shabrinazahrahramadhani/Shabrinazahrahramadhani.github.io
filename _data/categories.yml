@@ -1,0 +1,5 @@
+# _data/categories.yml
+- slug: desain-analisis-algoritma
+  name: DESAIN ANALISIS ALGORITMA
+- slug: greedy
+  name: GREEDY

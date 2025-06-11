@@ -1,5 +1,5 @@
 ---
-title: BREADTH-FIRST SEARCH (BFS)
+title: "BREADTH-FIRST SEARCH (BFS)"
 date: 2025-05-27
 categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
 tags: [daa, algorithm, bfs, graph]

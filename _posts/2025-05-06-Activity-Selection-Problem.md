@@ -1,5 +1,5 @@
 ---
-title: ACTIVITY SELECTION PROBLEM
+title: "ACTIVITY SELECTION PROBLEM"
 date: 2025-05-06
 categories: [DESAIN ANALISIS ALGORITMA, GREEDY]
 tags: [daa, algorithm, greedy]
