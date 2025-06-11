@@ -73,6 +73,7 @@ Diberikan:
 
 ---
 # Implementasi CPP
+{% raw %}
 ```cpp
 #include <iostream>
 #include <vector>
@@ -118,7 +119,4 @@ int main() {
 
     return 0;
 }
-
-
-
-
+{% endraw %}
