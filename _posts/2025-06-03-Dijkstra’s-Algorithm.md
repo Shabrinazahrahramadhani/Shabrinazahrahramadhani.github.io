@@ -1,8 +1,8 @@
 ---
-Title: DIJKSTRA’S ALGORITHM
-Date: 03-06-2025
-Categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
-Tags: [daa, algorithm, dijkstra, shortestpath, graph]
+title: DIJKSTRA’S ALGORITHM
+date: 03-06-2025
+categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
+tags: [daa, algorithm, dijkstra, shortestpath, graph]
 ---
 Pengertian:
 

@@ -1,8 +1,8 @@
 ---
-Title: N-QUEENS PROBLEM
-Date: 20-05-2025
-Categories: [DESAIN ANALISIS ALGORITMA, BACKTRACKING]
-Tags: [daa, algorithm, backtracking, nqueens]
+title: N-QUEENS PROBLEM
+date: 20-05-2025
+categories: [DESAIN ANALISIS ALGORITMA, BACKTRACKING]
+tags: [daa, algorithm, backtracking, nqueens]
 ---
 Pengantar
 

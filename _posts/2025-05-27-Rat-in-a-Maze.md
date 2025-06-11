@@ -1,8 +1,8 @@
 ---
-Title: RAT IN MAZE
-Date: 27-05-2025
-Categories: [DESAIN ANALISIS ALGORITMA, BACKTRACKING]
-Tags: [daa, algorithm, backtracking]
+title: RAT IN MAZE
+date: 27-05-2025
+categories: [DESAIN ANALISIS ALGORITMA, BACKTRACKING]
+tags: [daa, algorithm, backtracking]
 ---
 Pengantar
 
