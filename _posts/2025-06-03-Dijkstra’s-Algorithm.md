@@ -4,18 +4,21 @@ date: 2025-06-03
 categories: [DESAIN ANALISIS ALGORITMA, GRAPH]
 tags: [daa, algorithm, dijkstra, shortestpath, graph]
 ---
+
 Pengertian:
 
 Dijkstra adalah algoritma pencarian jalur terpendek dari satu simpul ke semua simpul lainnya dalam graf berbobot dengan bobot non-negatif.
 
 Langkah-langkah:
-	1.	Inisialisasi semua jarak sebagai ∞, kecuali simpul awal (0).
-	2.	Gunakan priority queue (min-heap) untuk mengambil simpul dengan jarak minimum.
-	3.	Perbarui jarak ke tetangga jika ditemukan jarak lebih kecil.
-	4.	Ulangi sampai semua simpul telah diproses.
+1. Inisialisasi semua jarak sebagai ∞, kecuali simpul awal (0).
+2. Gunakan priority queue (min-heap) untuk mengambil simpul dengan jarak minimum.
+3. Perbarui jarak ke tetangga jika ditemukan jarak lebih kecil.
+4. Ulangi sampai semua simpul telah diproses.
 
 Implementasi C++:
 
+{% raw %}
+```cpp
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -59,7 +62,11 @@ int main() {
     dijkstra(0, adj, n);
     return 0;
 }
+```
+{% endraw %}
 
 Kompleksitas Dijkstra:
-	•	Waktu: O((V + E) log V) dengan priority queue
-	•	Ruang: O(V) untuk jarak dan antrian
+
+Waktu: O((V + E) log V) dengan priority queue
+
+Ruang: O(V) untuk jarak dan antrian
