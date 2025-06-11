@@ -76,6 +76,7 @@ Diberikan:
 ## Implementasi dalam C++
 
 ```cpp
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -94,10 +95,12 @@ bool compare(Item a, Item b) {
 
 double fractionalKnapsack(int W, vector<Item>& items) {
     sort(items.begin(), items.end(), compare);
+
     double totalValue = 0.0;
 
     for (auto& item : items) {
         if (W == 0) break;
+
         if (item.weight <= W) {
             totalValue += item.value;
             W -= item.weight;
@@ -106,20 +109,20 @@ double fractionalKnapsack(int W, vector<Item>& items) {
             W = 0;
         }
     }
+
     return totalValue;
 }
 
 int main() {
     vector<Item> items = {{60, 10}, {100, 20}, {120, 30}};
     int capacity = 50;
+
     double maxValue = fractionalKnapsack(capacity, items);
     cout << "Total nilai maksimum: " << maxValue << endl;
+
     return 0;
 }
-
- Analisis Kompleksitas
-	•	Waktu: O(n log n) (karena sorting)
-	•	Ruang: O(1) tambahan jika in-place
+```
 
 
 
